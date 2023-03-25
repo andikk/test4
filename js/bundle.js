@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector(".js-hamburger-btn"),t=document.querySelector(".js-menu");e.addEventListener("click",function(){e.classList.toggle("hamburger_status_opened"),t.classList.toggle("navigation__menu_status_opened")})});

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <script src="js/single/swiper.min.js"></script>
+  <script src="js/single/wow.min.js"></script>
+
+  <title>Всероссийская акция «Добровольцы – детям»</title>
+</head>
+
+<body class="page">
+
+<header class="page__header">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <a class="hero__logo" href="index.html">
+          <img src="img/logo.png"  width="300" height="200" alt="">
+        </a>
+        <div class="hero__info">
+          <h1 class="hero__title">«Добровольцы – детям»</h1>
+          <p class="hero__subtitle">ХII Всероссийская акция</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+
+<nav class="navigation page__navigation">
+  <div class="container">
+    <div class="navigation__panel">
+      <button class="hamburger js-hamburger-btn">
+          <span class="hamburger__inner">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+      </button>
+<!--      <a class="navigation__logo">-->
+<!--        <img class="navigation__logo-img" src="img/logo.png" width="60"  alt="Логотип СКФУ" />-->
+<!--      </a>-->
+    </div>
+    <ul class="navigation__menu js-menu">
+      <li class="navigation__item">
+        <a class="navigation__link" href="about.html">Об акции</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="calendar.html">Календарь мероприятий</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="news.html">Новости</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="smi.html">СМИ</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="faq.html">Вопрос ответ</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="register.html">Регистрация</a>
+      </li>
+
+      <li class="navigation__item">
+        <a class="navigation__link" href="login.html">Вход</a>
+      </li>
+
+
+
+    </ul>
+  </div>
+</nav>
+
+
+<main class="page__main">
+  <div class="container">
+
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Главная</a></li>
+      <li class="breadcrumbs__item">Вопрос-ответ</li>
+    </ul>
+
+    <h2 class="title">Вопрос-ответ</h2>
+
+    <div class="accordion">
+      <button class="accordion__button">Кто может принять участие в акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на
+          вопрос.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button class="accordion__button">Еще один вопрос о проведении акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на вопрос.
+          Еще одно предложение с ответом на вопрос. Еще одно предложение с ответом на вопрос.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button class="accordion__button">Еще один вопрос о проведении акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на вопрос.
+          Еще одно предложение с ответом на вопрос. Еще одно предложение с ответом на вопрос.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button class="accordion__button">Еще один вопрос о проведении акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на вопрос.
+          Еще одно предложение с ответом на вопрос. Еще одно предложение с ответом на вопрос.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button class="accordion__button">Еще один вопрос о проведении акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на вопрос.
+          Еще одно предложение с ответом на вопрос. Еще одно предложение с ответом на вопрос.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button class="accordion__button">Еще один вопрос о проведении акции?</button>
+      <div class="accordion__panel">
+        <p>Ответ на вопрос. Какой-то текст с развёрнутым ответом на вопрос. Еще одно предложение с ответом на вопрос.
+          Еще одно предложение с ответом на вопрос. Еще одно предложение с ответом на вопрос.</p>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+
+        const acc = document.getElementsByClassName("accordion__button");
+        if (acc.length > 0) {
+          for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              let panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        }
+
+      });
+    </script>
+
+
+  </div>
+
+
+</main>
+
+<footer class="footer page__footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <p class="footer__title">Об акции</p>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a class="footer__link">Календарь мероприятий</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link">Новости</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link">Вопрос-ответ</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Полезные ссылки</p>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a class="footer__link" href="https://www.fond-detyam.ru/">Фонд поддержки детей, находящихся в трудной жизненной ситуации</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://ncfu.ru">Северо-Кавказский федеральный университет</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Контакты</p>
+        <p>Адрес: 355009, г. Ставрополь, ул. Пушкина, 1<br>
+           Телефон/факс: (8652) 33-05-93, 94-37-30<br>
+          <a class="footer__link" href="mailto:snishchitenko@ncfu.ru">snishchitenko@ncfu.ru</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+<script src="js/bundle.js"></script>
+
+</body>
+
+</html>
